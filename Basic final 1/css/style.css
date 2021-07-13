@@ -1,0 +1,118 @@
+html{
+	scroll-behavior: smooth;
+}
+body{
+	padding-bottom: 0px;
+	margin-bottom: 0;
+}
+.bg{
+	background-image: url(../img/bg.png);
+	bacground-repeat:  no-repeat;
+	background-attachment: fixed;
+}
+.container{
+	background-color: ;
+	margin: 50px ;
+}
+.container-collection{
+	margin: 700px 350px 50px 350px;
+	background-color: white;
+}
+.section-heading{
+    text-align: center;
+    color: black;
+    background-color: lightgray;
+    margin: 50px 0px;
+    padding: 10px;
+ }
+ .container-white{
+ 	background-color: white;
+ }
+ .amazon-button{
+	background-color: lightgray;
+	color:black;
+	border: 1px solid black;
+	padding:10px;
+}
+.amazon-button:hover{
+	background-color: lightgray;
+	color: black;
+	text-decoration: none;
+	border:  2px solid black;
+}
+.img-container:hover .overlay{
+	height: 10%;
+}
+.overlay {
+  position: absolute;
+  bottom: 45%;
+  left: 0;
+  right: 0;
+  background-color: black;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+.static-bg{
+	background-image: url(../img/bg2.jpg);
+	bacground-repeat:  no-repeat;
+	background-attachment: fixed;
+}
+.container-center{
+	background-color: ;
+	margin: 110px;
+}
+.about-us{
+    text-align: center;
+    color: black;
+    background-color: white;
+    margin: 50px 500px;
+    padding: 30px 10px;
+ }
+ .container-about-us{
+	margin: 100px 350px 0px 350px;
+	background-color: white;
+}
+.overlay-fade{
+	position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 68%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: white;
+}
+.img-container:hover .overlay-fade{
+	opacity: 1;
+}
+ .container-contact{
+	margin: 100px 0 0 0;
+	background-color: gray;
+}
+ .submit-button{
+ 	float: right;
+	background-color: darkgray;
+	color:white;
+	border: 1px solid black;
+	padding:10px 50px;
+  	transition: .5s ease;
+
+}
+.submit-button:hover{
+	background-color: black;
+	color: white;
+	text-decoration: none;
+	border:  1px solid black;
+	padding:10px 50px;
+}
+footer{
+	text-align:  center;
+	background-color: black;
+	color: white;
+	margin: 0;
+	overflow: hidden;
+}
